@@ -1,0 +1,17 @@
+figure , .window{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.image{
+    width: 25%;
+    border-radius: 50px;
+    transition: all 0.5s ease;
+}
+
+.image:hover{
+    transform: scale(2);
+}
